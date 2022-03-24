@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Ubuntu', 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background-color: #000000;
+    background-image: url('images/top-bg.jpg');
+    color: green;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.info {
+    margin-left: 20px;
+    padding: 20px;
+    margin: 0;
+
+}
+
+.card {
+    border: solid;
+    border-radius: 13px;
+    background-color: #012001;
+    padding: 13px;
+    margin: 10px;
+}
+
+.photo {
+    width: 150px;
+    border-radius: 13px;
+    box-shadow: 4px 4px 14px rgba(250, 249, 249, 0.25);
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.inst:hover {
+
+    font-size: 1.1rem;
+    color: #ff4243;
+
+}
+
+.fb:hover {
+
+    font-size: 1.1rem;
+    color: #ff4243;
+}
+
+.btn {
+    background-color: #012001;
+    color: green;
+    border-color: #012001;
+}
+
+.btn:hover {
+    color: red;
+}
+
+ol {
+    margin: 10;
+    padding: 10;
+    line-height: 1.75;
+}
+
+table {
+    width: 100%;
+
+}
+
+table td {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+table td:nth-child(odd) {
+    background-color: #010a01
+}

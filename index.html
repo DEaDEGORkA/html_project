@@ -8,31 +8,30 @@
     <title>Резюме Труфанов Р.А.</title>
     <meta name="keywords" content="CV, резюме, характеристика">
     <meta name="description" content="Резюме Труфанова Родиона на должность разработчика">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header>
-        <div id="photo"><img
-                src="https://scontent-otp1-1.xx.fbcdn.net/v/t1.6435-9/98208000_3192870234091085_189243328577929216_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=4jD-5J77EF8AX9bbmUV&_nc_ht=scontent-otp1-1.xx&oh=00_AT_cFLb4TYEVTzYeystR3nVoLS5TuK8a7Yhb0KSes4uEIg&oe=6259941E"
-                width="150" alt="Моё фото">
-        </div>
+    <div class="info">
+        <header>
+            <img src="images/photo.jpg" alt="Моё фото" class="photo">
 
-        <h1>Труфанов Родион</h1>
-    </header>
-    <section>
+            <h1>Труфанов Родион</h1>
+        </header>
         <article id="about">
             <p>Я - опытный <strong> руководитель проектов </strong> и так же владею базовыми навыками в
                 <strong>web-разработке</strong></p>
             <p>Мой опыт работы в IT сфере составляет более 7 лет. Начинал с программиста-стажёра
                 <strong><em>1с</em></strong> и,
-                дойдя по карьерной леснице до руководителя отдела программистов, решил сменить немного вид деятельности
+                дойдя по карьерной леснице до руководителя отдела программистов, решил сменить немного вид
+                деятельности
                 и
                 ушёл в
                 <strong><em> web-разработку. </em></strong></p>
-            <hr>
+
         </article>
-    </section>
-    <div id="hobby">
+    </div>
+    <div class="card">
         <h2>Мои хобби</h2>
         <ol>
             <li>Чтение
@@ -51,8 +50,7 @@
             </li>
         </ol>
     </div>
-    <hr>
-    <div id="expirience">
+    <div class="card">
         <h2>Мой опыт работы</h2>
         <table>
             <thead>
@@ -79,36 +77,46 @@
                 <tr>
                     <td>3 года</td>
                     <td>ServiceCloud</td>
-                    <td>Программист-стажёр, программист,<br>координатор, руководитель отдела разработки</td>
+                    <td>Программист-стажёр, программист, координатор, руководитель отдела разработки</td>
                     <td>2016-2018</td>
+                </tr>
+                <tr>
+                    <td>1 года</td>
+                    <td>Мегафон</td>
+                    <td>Супервизор</td>
+                    <td>2015-2016</td>
                 </tr>
             </tbody>
         </table>
     </div>
-    <hr>
+
     <footer>
         <H2>Мои контакты</H2>
-        <img src="images/Instagram.png" width="20" alt="Иконка instagram">
-        <a href="https://www.instagram.com/dead_egorka/" target="_blank"> Instagram | </a>
-        <img src="images/Facebook.png" width="20" alt="Иконка facebook">
-        <a href="https://www.facebook.com/DEaD.EGOR/" target="_blank"> Facebook </a>
+        <div class="inst">
+            <img src="images/Instagram.png" width="20" alt="Иконка instagram">
+            <a href="https://www.instagram.com/dead_egorka/" target="_blank"> Instagram </a>
+        </div>
+        <div class="fb">
+            <img src="images/Facebook.png" width="20" alt="Иконка facebook">
+            <a href="https://www.facebook.com/DEaD.EGOR/" target="_blank"> Facebook </a>
+        </div>
         <h2>Связаться со мной</h2>
         <form>
             <div>
                 <label for="name">Ваше имя:</label>
-                <input type="text" id="name" placeholder="Введите имя">
+                <input class="btn" type="text" id="name" placeholder="Введите имя">
             </div>
             <div>
                 <label for="email">Ваш email:</label>
-                <input type="email" id="email" placeholder="Введите email">
+                <input class="btn" type="email" id="email" placeholder="Введите email">
             </div>
-            <div>
+            <div">
                 <label for="message">Ваше сообщение:</label><br>
-                <textarea id="message"></textarea>
-            </div>
-            <div>
-                <button type="button" id="button"> Отправить! </button>
-            </div>
+                <textarea class="btn" id="message"></textarea>
+                </div>
+                <div>
+                    <button class="btn" type="button" id="button"> Отправить! </button>
+                </div>
         </form>
     </footer>
 </body>
