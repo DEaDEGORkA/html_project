@@ -15,19 +15,15 @@
     <div class="info">
         <header>
             <img src="images/photo.jpg" alt="Моё фото" class="photo">
-
-            <h1>Труфанов Родион</h1>
         </header>
         <article id="about">
+            <h1>Труфанов Родион</h1>
             <p>Я - опытный <strong> руководитель проектов </strong> и так же владею базовыми навыками в
                 <strong>web-разработке</strong></p>
             <p>Мой опыт работы в IT сфере составляет более 7 лет. Начинал с программиста-стажёра
                 <strong><em>1с</em></strong> и,
                 дойдя по карьерной леснице до руководителя отдела программистов, решил сменить немного вид
-                деятельности
-                и
-                ушёл в
-                <strong><em> web-разработку. </em></strong></p>
+                деятельности и ушёл в <strong><em> web-разработку. </em></strong></p>
 
         </article>
     </div>
@@ -100,24 +96,27 @@
             <img src="images/Facebook.png" width="20" alt="Иконка facebook">
             <a href="https://www.facebook.com/DEaD.EGOR/" target="_blank"> Facebook </a>
         </div>
-        <h2>Связаться со мной</h2>
-        <form>
-            <div>
-                <label for="name">Ваше имя:</label>
-                <input class="btn" type="text" id="name" placeholder="Введите имя">
+
+        <div class="form">
+            <h2>Связаться со мной</h2>
+            <div class="form-group">
+                <div class="form-grp">
+                    <label for="name">Ваше имя:</label>
+                    <input class="btn" type="text" id="name" placeholder="Введите имя">
+                </div>
+                <div class="form-grp">
+                    <label for="email">Ваш email:</label>
+                    <input class="btn" type="email" id="email" placeholder="Введите email">
+                </div>
             </div>
-            <div>
-                <label for="email">Ваш email:</label>
-                <input class="btn" type="email" id="email" placeholder="Введите email">
-            </div>
-            <div">
-                <label for="message">Ваше сообщение:</label><br>
+            <div class="form-grp">
+                <label for="message">Ваше сообщение:</label>
                 <textarea class="btn" id="message"></textarea>
-                </div>
-                <div>
-                    <button class="btn" type="button" id="button"> Отправить! </button>
-                </div>
-        </form>
+            </div>
+            <div>
+                <button class="btn" type="button" id="button"> Отправить! </button>
+            </div>
+        </div>
     </footer>
 </body>
 

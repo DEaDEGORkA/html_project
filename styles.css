@@ -17,7 +17,20 @@ body {
     margin-left: 20px;
     padding: 20px;
     margin: 0;
+    display: flex;
+}
 
+.info p,
+.info h1 {
+    margin-left: 20px;
+    margin-block: auto;
+}
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
 }
 
 .card {
@@ -56,6 +69,8 @@ a {
     background-color: #012001;
     color: green;
     border-color: #012001;
+    border-radius: 13px;
+    resize: none;
 }
 
 .btn:hover {
@@ -68,9 +83,18 @@ ol {
     line-height: 1.75;
 }
 
+@media (max-width: 650px) {
+    table {
+        width: 95%;
+        font-size: 12px;
+        text-align: left;
+        margin: auto;
+        margin-top: 10px;
+    }
+}
+
 table {
     width: 100%;
-
 }
 
 table td {
@@ -80,4 +104,46 @@ table td {
 
 table td:nth-child(odd) {
     background-color: #010a01
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.form-group .form-grp {
+    margin-right: 35px;
+    width: 50%;
+}
+
+@media (max-width: 650px) {
+    .form-group {
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .form-group .form-grp {
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+}
+
+.form-grp label {
+    display: block font-size: 14px;
+}
+
+.form-grp input,
+.form-grp textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 13px;
+
 }
